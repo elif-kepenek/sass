@@ -14,3 +14,17 @@ $w100 : 100px;
     }
 }
 
+@mixin boxes ($color, $w, $h) {
+    background-color: $color;
+    margin: 10px;
+    width: $w;
+    height: $h;
+}
+
+.box1 {
+    @include boxes(blue, $w150, $w100)
+}
+
+.box4 {
+    @include boxes(green, $w100, $w150)
+}

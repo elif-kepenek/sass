@@ -9,3 +9,17 @@
   width: 150px;
   height: 100px;
 }
+
+.box1 {
+  background-color: blue;
+  margin: 10px;
+  width: 150px;
+  height: 100px;
+}
+
+.box4 {
+  background-color: green;
+  margin: 10px;
+  width: 100px;
+  height: 150px;
+}
