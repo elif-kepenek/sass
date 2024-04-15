@@ -1,0 +1,10 @@
+$bgColor : red;
+$w150 : 150px;
+$w100 : 100px;
+
+
+.box1 {
+    background-color: $bgColor;
+    width: $w150;
+    height: $w100;
+}
