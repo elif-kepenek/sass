@@ -2,9 +2,15 @@ $bgColor : red;
 $w150 : 150px;
 $w100 : 100px;
 
-
-.box1 {
-    background-color: $bgColor;
-    width: $w150;
-    height: $w100;
+.container {
+    display: flex;
+    div {
+        margin: 5px;
+        &.box1 {
+            background-color: $bgColor;
+            width: $w150;
+            height: $w100;
+        }
+    }
 }
+

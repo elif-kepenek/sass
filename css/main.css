@@ -1,4 +1,10 @@
-.box1 {
+.container {
+  display: flex;
+}
+.container div {
+  margin: 5px;
+}
+.container div.box1 {
   background-color: red;
   width: 150px;
   height: 100px;
